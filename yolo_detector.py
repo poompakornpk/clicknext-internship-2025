@@ -64,7 +64,7 @@ def detect_object(frame):
 
 
 if __name__ == "__main__":
-    cap = cv2.VideoCapture("/Users/poompakornkamphangphet/Desktop/ClickNext Internship/CatZoomies.mp4")
+    cap = cv2.VideoCapture("CatZoomies.mp4")
 
     while cap.isOpened():
         ret, frame = cap.read()
